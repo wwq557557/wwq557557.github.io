@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>美丽校园-春华</title>
+<style>
+    #beautiful_school{
+        padding-left:50px;
+    }
+    .img-row{
+        display:flex;
+        gap:15px;
+        margin:15px 0;
+    }
+    .img-box{
+        height:220px;
+        width:220px;
+    }
+    .img-box img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+</style>    
+</head>
+<body>
+    <div id="beautiful_school">
+        <h1 style="text-align: center;">美丽校园—春华</h1>
+        <h2 style="text-align: center;">鲁东大学记本2501-王伟奇</h2>
+        <hr>
+        <div id="natural_scenery">
+            <a href="#natural_scenery">跳转到自然风光</a><br>
+            <a href="#human_landscape">跳转到人文景观</a><br>
+            <a href="landmark">跳转到校园打卡地标</a>
+            <h3>自然风光</h3>
+            <p>鲁东大学的自然之美，藏在朝夕变幻的云天里，融在山环水绕的校园中。白日里，厚重的云层间漏下缕缕天光，如舞台追光般洒在教学楼顶，远处黛色山峦为校园镶上温柔的轮廓，枝桠疏朗间，尽显天地的辽阔与沉静。待到暮色降临，晚霞便为天空铺就一场盛大的浪漫。粉橙交织的云霞漫过天际，将楼宇、林木都晕染成暖调，风携着草木的清香掠过树梢，为白日的喧嚣画上温柔的句点。校园里，林木错落，四季皆有景致：春日抽芽、夏日浓荫、秋日染金、冬日覆雪，与远处的青山相映，让每一次抬眼都成风景。鲁东大学的自然之美，是天光云影的馈赠，更是青春岁月里最治愈的底色，陪伴着一代代学子成长。
+。</p>
+        <div class="img-row" >
+            <div class="img-box">
+            <img src="c:\Users\王伟奇\Pictures\IMG_20260407_145439.jpg" title="鲁东大学自然风光" alt="">
+        </div>
+            <div class="img-box">  
+        <img src="c:\Users\王伟奇\Pictures\mmexport1759564805199.jpg" title="鲁东大学自然风光" alt="">
+        </div>
+    </div>
+        <div id="human_landscape">
+            <h3>人文景观</h3>
+            <p>鲁东大学的人文温度，藏在新生入学的每一个瞬间里。篮球场上，身着迷彩服的新生们席坐休整，青春的身影与葱郁的林木相映，军训的汗水里，是少年们踏入校园的第一份热忱与成长，也是鲁大育人篇章的崭新开篇。校门口，身着红马甲的志愿者们热情守候，为新生指引方向、搬运行李，用笑容与担当传递着校园的温暖与善意。往来的人群、有序的指引，交织成一幅鲜活的迎新图景，彰显着鲁大人互助友爱的精神风貌。校园里，葱郁的古树、整洁的广场、错落的楼宇，与朝气蓬勃的学子相映成趣。从军训场上的磨砺，到迎新时的温暖，鲁东大学的人文景观，是代代相传的青春接力，是浸润在日常里的育人温度，承载着 “厚德、博学、日新、笃行” 的校训精神，成为学子们心中最珍贵的成长印记。</p>
+        <div class="img-row">
+            <div class="img-box">
+            <img src="c:\Users\王伟奇\Pictures\IMG20250914142211.jpg" title="鲁东大学人文景观" alt="">
+            </div>
+            <div class="img-box">
+            <img src="c:\Users\王伟奇\Pictures\IMG20251001135003.jpg" title="鲁东大学人文景观" alt=""> 
+        </div>
+        </div>
+    <div id="landmark">    
+    <h3>校园打卡地标</h3>    
+    <ul>
+        <li>图书馆</li>
+        <li>篮球场</li>
+        <li>林荫步道</li>
+    </ul>
+    </div>    
+    </div>
+</body>
+</html>
