@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>数字展销平台</title>
+    <!-- 你的css路径完全保留不变 -->
+    <link type="text/css" rel="stylesheet" href="css/lab2-2501-022-index.css">
+</head>
+<body>
+    <!-- 头部固定导航栏：固定定位fixed + 浮动布局 -->
+    <div class="header">
+        <div class="logo">
+            <img src="img/83025aafa40f4bfbfbedc2cf73196ff0f736aec3b2a8.png" alt="平台logo" title="数字展销平台logo">
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href=" ">图书分类</a></li>
+                <li><a href="#display">图书展示</a></li>
+                <li><a href="#recommendation">图书推荐</a></li>
+                <li><a href="#launch">图书上市</a></li>
+            </ul>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+
+    <!-- 主体大容器 三栏浮动布局 -->
+    <div class="container">
+        <!-- 左侧栏：图书分类导航 相对定位 relative -->
+        <div class="classification">
+            <ul>
+                <li><a href="#fiction">文学小说</a></li>
+                <li><a href="#computer">计算机技术</a></li>
+                <li><a href="#economic">经管励志</a></li>
+                <li><a href="#cartoon">少儿读物</a></li>
+                <li><a href="#life">生活艺术</a></li>
+                <li><a href="#science">科技科普</a></li>
+            </ul>
+        </div>
+
+        <!-- 中间栏：图书主体内容区 -->
+        <div class="middle">
+            <!-- 图书展示区：父相子绝 + 第一格鼠标悬停效果 -->
+            <div id="display" class="book-show">
+                <h3>精品图书展示</h3>
+                <div class="show-list">
+                    <!-- 第一列盒子：专属hover悬停隐藏显示效果 -->
+                    <div class="show-item item-first">
+                        <img src="img\t017359e36229e509b5.jpg" alt="图书封面" title="湖南鸟类图鉴">
+                        <div class="item-hover-tip">点击查看详情</div>
+                    </div>
+                    <div class="show-item">
+                        <img src="img\t015e3fae725cf8a101.jpg" alt="图书封面" title="奥德赛">
+                    </div>
+                    <div class="show-item">
+                        <img src="img\t019bf2db4fe90f8cf0.png" alt="图书封面" title="一生自在">
+                    </div>
+                    <div class="show-item">
+                        <img src="img\t01611e85122cfa812b.jpg" alt="图书封面" title="征程">
+                    </div>
+                </div>
+            </div>
+
+            <!-- 热门推荐：浮动布局排列 -->
+            <div id="recommendation" class="hot-recommend">
+                <h3>热门推荐</h3>
+                <div class="hot-list">
+                    <div class="hot-item">热门书籍1</div>
+                    <div class="hot-item">热门书籍2</div>
+                    <div class="hot-item">热门书籍3</div>
+                    <div class="hot-item">热门书籍4</div>
+                    <div class="hot-item">热门书籍5</div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+
+            <!-- 新书上市：Table表格布局 -->
+            <div id="launch" class="new-book">
+                <h3>新书上市</h3>
+                <table>
+                    <tr>
+                        <th>书名</th>
+                        <th>作者</th>
+                        <th>分类</th>
+                        <th>上市时间</th>
+                    </tr>
+                    <tr>
+                        <td>前端开发实战</td>
+                        <td>张三</td>
+                        <td>计算机</td>
+                        <td>2026-04</td>
+                    </tr>
+                    <tr>
+                        <td>散文精选集</td>
+                        <td>李四</td>
+                        <td>文学小说</td>
+                        <td>2026-04</td>
+                    </tr>
+                    <tr>
+                        <td>理财入门</td>
+                        <td>王五</td>
+                        <td>经管励志</td>
+                        <td>2026-04</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <!-- 右侧栏：促销广告 固定定位 fixed -->
+        <div class="right-ad">
+            <h4>限时促销</h4>
+            <p>全场图书满减活动</p>
+            <p>新人首单包邮</p>
+        </div>
+
+        <div class="clearfix"></div>
+    </div>
+</body>
+</html>
